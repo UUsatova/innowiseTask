@@ -3,11 +3,11 @@ import java.util.List;
 
 public class User{
 
-    public String firstName;
-    public String lastName;
-    public String email;
-    public List<Long> phoneNumbers;
-    public Role role;
+    private String firstName;
+    private String lastName;
+    private String email;
+    private List<Long> phoneNumbers;
+    private Role role;
 
     public User(){
         phoneNumbers = new ArrayList<>();
@@ -67,8 +67,8 @@ public class User{
         
     }
 
-    public String getRole(){       
-        return role.trueStatments();
+    public Role getRole(){       
+        return role;
 
     }
 ////////////////////////////////////////////////////

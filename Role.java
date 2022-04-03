@@ -1,11 +1,11 @@
 
 
 class Role{
-    public boolean USER ;
-      public boolean CUSTOMER;
-      public boolean ADMIN ;
-      public boolean PROVIDER;
-      public boolean SUPER_ADMIN;
+      private boolean USER ;
+      private boolean CUSTOMER;
+      private boolean ADMIN ;
+      private boolean PROVIDER;
+      private boolean SUPER_ADMIN;
       
       
       public Role(){

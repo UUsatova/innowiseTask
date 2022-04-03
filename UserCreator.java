@@ -112,7 +112,7 @@ public class UserCreator {
                         break;
                     case (5):
                         System.out.println("Исходные роли пользователя " + person.getRole().toString()); 
-                        System.out.print("Измененние ролей пользователя\n>> "); person.setRole(getRole(person.role));
+                        System.out.print("Измененние ролей пользователя\n>> "); person.setRole(getRole(person.getRole()));
                         System.out.println("Успешно изменено");
                         break;
                     case (6):
@@ -171,13 +171,4 @@ public class UserCreator {
      
     }
 
-    public static void main(String[] args){ 
-        
-        UserCreator userCreator = new UserCreator();
-        User a  = userCreator.createUser();
-        System.out.println(a.toString());
-        // userCreator.changeUser(a);
-        // System.out.println(a.toString());
-
-    }
 }
