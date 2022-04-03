@@ -1,7 +1,7 @@
 package branch.init;
 import branch.Servise.Input;
 
-class Role{
+public class Role{
       private boolean USER ;
       private boolean CUSTOMER;
       private boolean ADMIN ;
